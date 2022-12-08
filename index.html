@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./pac.css">
+    <link rel="stylesheet" href="./mobile.css" media="screen and (max-width:630px">
+     
+</head>
+<body>
+    
+     <div class="crud">
+    <h1 >CREACION DE CRUD</h1>
+    </div>
+    <table>
+        <tr>
+            <td class="tduno">
+                <form onsubmit="event.preventDefault(); onSubmitform();" >
+                    
+                    <div>
+                        <label>CODIGO</label>
+                        <input type="number" name="empCode" id="empCode" placeholder="codigo de identificacion">
+                    </div>
+                    <div>
+                        <label>NOMBRE</label>
+                        <input type="text" name="fullName" id="fullName" placeholder="Nombre">
+                    </div>
+                    
+                    <div>
+                        <label>PADECIMIENTO</label>
+                        <input type="text" name="padMedico" id="padMedico" placeholder="Padecimiento">
+                    </div>
+                    <div class="buttom" id="buttom">
+                        <button type="submit" value="submit">Aceptar</button>
+                       
+                    </div>
+                </form>
+
+            </td>
+            
+            <td>
+                <h2>RESULTADOS</h2>
+                 
+                <table class="mainTable" id="employeeList">
+                <thead>
+                    <th>CODIGO</th>
+                    <th>NOMBRE</th>
+                    <th>PADECIMIENTO</th>
+                    
+                </thead>              
+                
+                <tbody id="tbody"></tbody>
+                
+
+                </table>
+                
+            </td>
+        </tr>
+
+    </table>
+
+    
+
+    
+</div>
+
+<div class="final"> 
+   
+  <div class="cubo1">
+              
+          <div class="cubo" > 
+            <img src="./paciente.jpg" alt="">
+            <h2>CREACION DE CRUD</h2>  
+           </div>
+           
+   <div class="cubo2">
+
+       <div class="horario">
+           <h3>REGISTRO DE PACIENTES</h3>
+           <ul>
+               <li>INICIO</li>
+               <li>NOMBRE  </li>
+               <li>PADECIMIENTO </li>
+              </ul>
+         </div>
+   </div>            
+ </div>
+
+
+<div class="cubo1">
+  
+    <div class="cubo3">
+        <div class="dato">
+               <h2>Contacto</h2>               
+           <footer> 
+               <address>
+                   Copyright © -2022 José César Mérida
+                   josemeridaher@gmail.com
+                 
+                 <p>5552525252 </p>
+                               
+               </address>
+               
+           </footer> <div>
+  </div>    
+</div>         
+  
+</div>       
+
+
+
+    <script src="./pac.js"></script>
+</body>
+</html>
